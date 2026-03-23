@@ -1,0 +1,88 @@
+{
+"perguntas": [
+{
+"categoria": "Especializações",
+"pergunta": "Posso fazer as duas especializações Back-End e Data Science?",
+"resposta": "Você só pode escolher uma especialização.",
+"palavras_chave": ["especialização", "duas especializações", "trilha", "escolha"]
+},
+{
+"categoria": "Challenges",
+"pergunta": "Os Challenges são obrigatórios?",
+"resposta": "São obrigatórios para que você tenha uma experiência completa no ONE e também são critério obrigatório para se graduar.",
+"palavras_chave": ["challenge", "desafio", "obrigatório"]
+},
+{
+"categoria": "Planos de Estudo",
+"pergunta": "Os planos de estudo são obrigatórios?",
+"resposta": "Não, eles são opcionais. Servem apenas como apoio para organizar seus estudos.",
+"palavras_chave": ["plano de estudo", "obrigatório", "opcional"]
+},
+{
+"categoria": "Planos de Estudo",
+"pergunta": "As datas dos planos de estudo são obrigatórias?",
+"resposta": "Não, são apenas sugestivas. A única data obrigatória é a final da etapa: 19 de agosto às 23:59.",
+"palavras_chave": ["datas", "plano de estudo"]
+},
+{
+"categoria": "Challenges",
+"pergunta": "Como funcionam os Challenges das formações?",
+"resposta": "Os challenges são projetos práticos baseados nos cursos estudados. Desde que o aluno implemente as funcionalidades básicas do Trello, o projeto é válido.",
+"palavras_chave": ["challenge", "desafio", "funcionalidades"]
+},
+{
+"categoria": "Dashboard",
+"pergunta": "Não consigo ver as formações na tela inicial. O que fazer?",
+"resposta": "Acesse a formação que não aparece e clique em 'Exibir no meu dashboard'.",
+"palavras_chave": ["dashboard", "formações", "sumiu"]
+},
+{
+"categoria": "Eventos",
+"pergunta": "Perdi a transmissão ao vivo. Posso reassistir?",
+"resposta": "Sim, basta acessar o mesmo link do YouTube e assistir quando quiser.",
+"palavras_chave": ["evento", "ao vivo", "transmissão"]
+},
+{
+"categoria": "Back-End - Critérios",
+"pergunta": "Quais são os critérios para seguir para a próxima fase do ONE?",
+"resposta": "Você deve concluir todas as formações obrigatórias até o dia 19 de agosto às 23:59 (Horário de Brasília).",
+"palavras_chave": ["critérios", "próxima fase", "obrigatório"]
+},
+{
+"categoria": "Back-End - Deploy",
+"pergunta": "É obrigatório fazer deploy dos challenges Back-End?",
+"resposta": "Não é obrigatório fazer deploy. Apenas as funcionalidades básicas do Trello precisam ser entregues.",
+"palavras_chave": ["deploy", "back-end", "challenge"]
+},
+{
+"categoria": "Back-End - IDE",
+"pergunta": "É obrigatório usar o IntelliJ?",
+"resposta": "Não é obrigatório, mas recomendamos porque é a IDE usada nos cursos.",
+"palavras_chave": ["intellij", "ide", "obrigatório"]
+},
+{
+"categoria": "Back-End - Java",
+"pergunta": "Qual versão do Java devo usar?",
+"resposta": "Nos cursos é usada a versão 17. Recomendamos usar ela, mas também pode usar versões LTS mais recentes como 21 ou 25.",
+"palavras_chave": ["java", "versão", "lts"]
+},
+{
+"categoria": "Data Science - Linguagem",
+"pergunta": "Qual linguagem devo usar em Data Science?",
+"resposta": "Recomendamos Python, pois é a linguagem principal usada nos cursos e possui maior ecossistema de bibliotecas para análise de dados.",
+"palavras_chave": ["data science", "python", "linguagem"]
+},
+{
+"categoria": "Data Science - Ferramentas",
+"pergunta": "Quais ferramentas são usadas na trilha de Data Science?",
+"resposta": "Usamos principalmente Jupyter Notebook, Pandas, NumPy, Matplotlib e ferramentas de visualização.",
+"palavras_chave": ["ferramentas", "pandas", "jupyter"]
+},
+{
+"categoria": "Data Science - Projetos",
+"pergunta": "Os projetos de Data Science precisam ser complexos?",
+"resposta": "Não. O importante é aplicar corretamente os conceitos e entregar as etapas solicitadas.",
+"palavras_chave": ["projetos", "complexidade", "data science"]
+}
+]
+}
