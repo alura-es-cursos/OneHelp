@@ -1,12 +1,21 @@
 
-# Playwright
+# Dependencias y entorno
 node_modules/
+venv/
+
+# Variables de entorno (credenciales - NUNCA subir)
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Playwright
 /test-results/
 /playwright-report/
 /blob-report/
 /playwright/.cache/
 /playwright/.auth/
-venv/
-.env/
-__pycache__/
-*.pyc

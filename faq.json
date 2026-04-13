@@ -1,88 +1,36 @@
 {
-"perguntas": [
-{
-"categoria": "Especializações",
-"pergunta": "Posso fazer as duas especializações Back-End e Data Science?",
-"resposta": "Você só pode escolher uma especialização.",
-"palavras_chave": ["especialização", "duas especializações", "trilha", "escolha"]
-},
-{
-"categoria": "Challenges",
-"pergunta": "Os Challenges são obrigatórios?",
-"resposta": "São obrigatórios para que você tenha uma experiência completa no ONE e também são critério obrigatório para se graduar.",
-"palavras_chave": ["challenge", "desafio", "obrigatório"]
-},
-{
-"categoria": "Planos de Estudo",
-"pergunta": "Os planos de estudo são obrigatórios?",
-"resposta": "Não, eles são opcionais. Servem apenas como apoio para organizar seus estudos.",
-"palavras_chave": ["plano de estudo", "obrigatório", "opcional"]
-},
-{
-"categoria": "Planos de Estudo",
-"pergunta": "As datas dos planos de estudo são obrigatórias?",
-"resposta": "Não, são apenas sugestivas. A única data obrigatória é a final da etapa: 19 de agosto às 23:59.",
-"palavras_chave": ["datas", "plano de estudo"]
-},
-{
-"categoria": "Challenges",
-"pergunta": "Como funcionam os Challenges das formações?",
-"resposta": "Os challenges são projetos práticos baseados nos cursos estudados. Desde que o aluno implemente as funcionalidades básicas do Trello, o projeto é válido.",
-"palavras_chave": ["challenge", "desafio", "funcionalidades"]
-},
-{
-"categoria": "Dashboard",
-"pergunta": "Não consigo ver as formações na tela inicial. O que fazer?",
-"resposta": "Acesse a formação que não aparece e clique em 'Exibir no meu dashboard'.",
-"palavras_chave": ["dashboard", "formações", "sumiu"]
-},
-{
-"categoria": "Eventos",
-"pergunta": "Perdi a transmissão ao vivo. Posso reassistir?",
-"resposta": "Sim, basta acessar o mesmo link do YouTube e assistir quando quiser.",
-"palavras_chave": ["evento", "ao vivo", "transmissão"]
-},
-{
-"categoria": "Back-End - Critérios",
-"pergunta": "Quais são os critérios para seguir para a próxima fase do ONE?",
-"resposta": "Você deve concluir todas as formações obrigatórias até o dia 19 de agosto às 23:59 (Horário de Brasília).",
-"palavras_chave": ["critérios", "próxima fase", "obrigatório"]
-},
-{
-"categoria": "Back-End - Deploy",
-"pergunta": "É obrigatório fazer deploy dos challenges Back-End?",
-"resposta": "Não é obrigatório fazer deploy. Apenas as funcionalidades básicas do Trello precisam ser entregues.",
-"palavras_chave": ["deploy", "back-end", "challenge"]
-},
-{
-"categoria": "Back-End - IDE",
-"pergunta": "É obrigatório usar o IntelliJ?",
-"resposta": "Não é obrigatório, mas recomendamos porque é a IDE usada nos cursos.",
-"palavras_chave": ["intellij", "ide", "obrigatório"]
-},
-{
-"categoria": "Back-End - Java",
-"pergunta": "Qual versão do Java devo usar?",
-"resposta": "Nos cursos é usada a versão 17. Recomendamos usar ela, mas também pode usar versões LTS mais recentes como 21 ou 25.",
-"palavras_chave": ["java", "versão", "lts"]
-},
-{
-"categoria": "Data Science - Linguagem",
-"pergunta": "Qual linguagem devo usar em Data Science?",
-"resposta": "Recomendamos Python, pois é a linguagem principal usada nos cursos e possui maior ecossistema de bibliotecas para análise de dados.",
-"palavras_chave": ["data science", "python", "linguagem"]
-},
-{
-"categoria": "Data Science - Ferramentas",
-"pergunta": "Quais ferramentas são usadas na trilha de Data Science?",
-"resposta": "Usamos principalmente Jupyter Notebook, Pandas, NumPy, Matplotlib e ferramentas de visualização.",
-"palavras_chave": ["ferramentas", "pandas", "jupyter"]
-},
-{
-"categoria": "Data Science - Projetos",
-"pergunta": "Os projetos de Data Science precisam ser complexos?",
-"resposta": "Não. O importante é aplicar corretamente os conceitos e entregar as etapas solicitadas.",
-"palavras_chave": ["projetos", "complexidade", "data science"]
-}
-]
+  "config": {
+    "idioma": "pt",
+    "programa": "Oracle Next Education (ONE) - Grupo 10",
+    "region": "Brasil"
+  },
+  "fase_imersao": {
+    "perguntas_respostas": [
+      { "id": 1, "pergunta": "O que é a fase de imersão?", "resposta": "É a segunda fase do programa ONE, onde os participantes terão contato inicial com conteúdos de Inteligência Artificial e desenvolverão seu primeiro projeto em IA." },
+      { "id": 2, "pergunta": "Qual é o objetivo da imersão?", "resposta": "Desenvolver o primeiro projeto em IA com base em conteúdos introdutórios." },
+      { "id": 3, "pergunta": "A imersão é obrigatória?", "resposta": "Sim, ela é necessária para avançar para a próxima fase do programa." },
+      { "id": 4, "pergunta": "Quando acontece a imersão?", "resposta": "De 15/06 a 19/06." },
+      { "id": 5, "pergunta": "Quanto tempo dura a imersão?", "resposta": "Dura 1 semana." },
+      { "id": 6, "pergunta": "Quantas aulas teremos?", "resposta": "Serão 3 aulas online." },
+      { "id": 7, "pergunta": "As aulas são ao vivo ou gravadas?", "resposta": "As aulas são online e os materiais ficam gravados." },
+      { "id": 8, "pergunta": "Quais conteúdos serão abordados?", "resposta": "Durante a imersão, você verá: IA (Inteligência Artificial), Automação com n8n, RAG (Retrieval-Augmented Generation) e Agentes de IA." },
+      { "id": 9, "pergunta": "Preciso ter conhecimento prévio?", "resposta": "Sim, é necessário ter conhecimentos técnicos básicos. Embora os conteúdos iniciem de forma introdutória, alguns tópicos são mais avançados e exigem que você conheça o básico de programação para acompanhá-los com sucesso." },
+      { "id": 10, "pergunta": "Onde acontecerão as aulas?", "resposta": "Os cursos estão na plataforma da Alura, mas as aulas ao vivo geralmente acontecem no Discord ou no Microsoft Teams." },
+      { "id": 11, "pergunta": "Como vou acessar a plataforma?", "resposta": "As informações de acesso são sempre enviadas para o seu e-mail, mas você também pode encontrar as instruções nos canais de #avisos no Discord." },
+      { "id": 12, "pergunta": "Preciso pagar algo para acessar?", "resposta": "Não, o acesso é fornecido pelo programa." },
+      { "id": 13, "pergunta": "Vou receber certificado?", "resposta": "Sim, ao concluir a imersão você receberá um certificado." },
+      { "id": 14, "pergunta": "O certificado é obrigatório?", "resposta": "Sim, ele é necessário para avançar para a próxima fase. Vale lembrar que você receberá certificados tanto pelos cursos individuais quanto um certificado geral ao finalizar todo o programa." },
+      { "id": 15, "pergunta": "Como obter o certificado?", "resposta": "Participando da imersão e cumprindo os requisitos definidos." },
+      { "id": 16, "pergunta": "Quais os requisitos para participar da próxima fase?", "resposta": "Obter o certificado da imersão, fazer entrega do mesmo e preencher um novo formulário (que será enviado)." },
+      { "id": 17, "pergunta": "O que acontece depois da imersão?", "resposta": "Você poderá avançar para a próxima fase do programa." },
+      { "id": 18, "pergunta": "Preciso fazer algo para ir para a próxima fase?", "resposta": "Sim: obter o certificado da imersão e preencher o formulário que será enviado." },
+      { "id": 19, "pergunta": "Vou desenvolver um projeto?", "resposta": "Sim, você desenvolverá seu primeiro projeto em IA durante a imersão." },
+      { "id": 20, "pergunta": "O projeto é individual ou em grupo?", "resposta": "O projeto é individual." },
+      { "id": 21, "pergunta": "E se eu perder uma aula?", "resposta": "Não se preocupe, os materiais das aulas ficam gravados e são compartilhados no canal de #avisos." },
+      { "id": 22, "pergunta": "Posso fazer a imersão no meu ritmo?", "resposta": "A imersão tem datas específicas para as entregas, mas você faz no seu próprio horário." },
+      { "id": 23, "pergunta": "Onde tiro dúvidas?", "resposta": "No servidor do Discord do programa." },
+      { "id": 24, "pergunta": "Vou receber mais informações?", "resposta": "Sim, a equipe enviará instruções detalhadas ao longo da fase." },
+      { "id": 25, "pergunta": "Como entro em contato com o suporte?", "resposta": "Você pode enviar um e-mail para contacto-one@aluracursos.com ou procurar nossas CMs Leti Farias ou Roby." }
+    ]
+  }
 }

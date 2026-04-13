@@ -26,9 +26,26 @@ def carregar_faq():
     try:
         with open('faq.json', 'r', encoding='utf-8') as f:
             data = json.load(f)
+            # Formato legado: { "pt": { "perguntas": [...] } }
             if "pt" in data:
                 return data["pt"].get("perguntas", [])
-            return data.get("perguntas", data) # Tenta formatos flexíveis
+            # Formato legado: { "perguntas": [...] }
+            if "perguntas" in data:
+                return data["perguntas"]
+            # Formato atual: seções com "perguntas_respostas", ex: { "fase_imersao": { "perguntas_respostas": [...] } }
+            perguntas = []
+            IGNORAR = {"config"}
+            for secao, conteudo in data.items():
+                if secao in IGNORAR or not isinstance(conteudo, dict):
+                    continue
+                categoria = secao.replace("_", " ").title()
+                for item in conteudo.get("perguntas_respostas", []):
+                    perguntas.append({
+                        "categoria": categoria,
+                        "pergunta": item.get("pergunta", ""),
+                        "resposta": item.get("resposta", "")
+                    })
+            return perguntas
     except FileNotFoundError:
         print("Erro: Ficheiro faq.json não encontrado!")
         return []
