@@ -4,6 +4,7 @@ import json
 import os
 from dotenv import load_dotenv
 from openai import OpenAI
+from webserver import keep_alive
 
 # Carregar variáveis de ambiente
 load_dotenv()
@@ -214,4 +215,5 @@ if __name__ == "__main__":
     if not DISCORD_TOKEN or not OPENAI_API_KEY:
         print("❌ ERRO: Verifique as chaves DISCORD_TOKEN e OPENAI_API_KEY no .env")
     else:
+        keep_alive()
         bot.run(DISCORD_TOKEN)
