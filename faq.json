@@ -14,7 +14,7 @@
       { "id": 6, "pergunta": "Quantas aulas teremos?", "resposta": "Serão 3 aulas online." },
       { "id": 7, "pergunta": "As aulas são ao vivo ou gravadas?", "resposta": "As aulas são online e os materiais ficam gravados." },
       { "id": 8, "pergunta": "Quais conteúdos serão abordados?", "resposta": "Durante a imersão, você verá: IA (Inteligência Artificial), Automação com n8n, RAG (Retrieval-Augmented Generation) e Agentes de IA." },
-      { "id": 9, "pergunta": "Preciso ter conhecimento prévio?", "resposta": "Sim, é necessário ter conhecimentos técnicos básicos. Embora os conteúdos iniciem de forma introdutória, alguns tópicos são mais avançados e exigem que você conheça o básico de programação para acompanhá-los com sucesso." },
+      { "id": 9, "pergunta": "Preciso ter conhecimento prévio?", "respuesta": "Não é estritamente necessário ter conhecimento prévio para começar, embora ter uma base técnica ajude nos níveis avançados. O que é fundamental é ter um computador e acesso à internet para realizar o curso." },
       { "id": 10, "pergunta": "Onde acontecerão as aulas?", "resposta": "Os cursos estão na plataforma da Alura, mas as aulas ao vivo geralmente acontecem no Discord ou no Microsoft Teams." },
       { "id": 11, "pergunta": "Como vou acessar a plataforma?", "resposta": "As informações de acesso são sempre enviadas para o seu e-mail, mas você também pode encontrar as instruções nos canais de #avisos no Discord." },
       { "id": 12, "pergunta": "Preciso pagar algo para acessar?", "resposta": "Não, o acesso é fornecido pelo programa." },
