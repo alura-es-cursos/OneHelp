@@ -383,8 +383,4 @@ if __name__ == "__main__":
         print("❌ ERRO: Verifique as chaves DISCORD_TOKEN e OPENAI_API_KEY no .env")
     else:
         keep_alive()
-<<<<<<< HEAD
         bot.run(DISCORD_TOKEN)
-=======
-        bot.run(DISCORD_TOKEN)
->>>>>>> ce03a2d2e3201a5ebd77215bd3b37303017ed7a0
